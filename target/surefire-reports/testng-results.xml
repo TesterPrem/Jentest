@@ -5,18 +5,18 @@
       <![CDATA[Hello Java]]>
     </line>
     <line>
-      <![CDATA[Hello c]]>
-    </line>
-    <line>
       <![CDATA[Hello Python]]>
     </line>
+    <line>
+      <![CDATA[Hello c]]>
+    </line>
   </reporter-output>
-  <suite started-at="2022-05-28T10:04:06 IST" name="Suite" finished-at="2022-05-28T10:04:06 IST" duration-ms="86">
+  <suite started-at="2022-05-28T10:08:40 IST" name="Surefire suite" finished-at="2022-05-28T10:08:40 IST" duration-ms="67">
     <groups>
     </groups>
-    <test started-at="2022-05-28T10:04:06 IST" name="Test" finished-at="2022-05-28T10:04:06 IST" duration-ms="86">
+    <test started-at="2022-05-28T10:08:40 IST" name="Surefire test" finished-at="2022-05-28T10:08:40 IST" duration-ms="67">
       <class name="Jenkins.Test2">
-        <test-method signature="testp()[pri:0, instance:Jenkins.Test2@383bfa16]" started-at="2022-05-28T10:04:06 IST" name="testp" finished-at="2022-05-28T10:04:06 IST" duration-ms="2" status="PASS">
+        <test-method signature="testp()[pri:0, instance:Jenkins.Test2@7dc0f706]" started-at="2022-05-28T10:08:40 IST" name="testp" finished-at="2022-05-28T10:08:40 IST" duration-ms="0" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Hello Python]]>
@@ -25,7 +25,7 @@
         </test-method> <!-- testp -->
       </class> <!-- Jenkins.Test2 -->
       <class name="Jenkins.Test3">
-        <test-method signature="testc()[pri:0, instance:Jenkins.Test3@71def8f8]" started-at="2022-05-28T10:04:06 IST" name="testc" finished-at="2022-05-28T10:04:06 IST" duration-ms="2" status="PASS">
+        <test-method signature="testc()[pri:0, instance:Jenkins.Test3@4009e306]" started-at="2022-05-28T10:08:40 IST" name="testc" finished-at="2022-05-28T10:08:40 IST" duration-ms="0" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Hello c]]>
@@ -34,7 +34,7 @@
         </test-method> <!-- testc -->
       </class> <!-- Jenkins.Test3 -->
       <class name="Jenkins.Test1">
-        <test-method signature="testj()[pri:0, instance:Jenkins.Test1@49c7b90e]" started-at="2022-05-28T10:04:06 IST" name="testj" finished-at="2022-05-28T10:04:06 IST" duration-ms="11" status="PASS">
+        <test-method signature="testj()[pri:0, instance:Jenkins.Test1@7d20d0b]" started-at="2022-05-28T10:08:40 IST" name="testj" finished-at="2022-05-28T10:08:40 IST" duration-ms="6" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Hello Java]]>
@@ -42,6 +42,6 @@
           </reporter-output>
         </test-method> <!-- testj -->
       </class> <!-- Jenkins.Test1 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
 </testng-results>
